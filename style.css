@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+/*html {
+	scroll-behavior: smooth;
+}
+
+*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 30px auto;
+	max-width:  1200px;
+}
+
+nav {
+	padding: 0;
+	margin:  0;
+	display:  flex;
+}
+
+nav a {
+	list-style-type: none;
+	padding:  0 30px;
+	height:  40px;
+	line-height:  40px;
+	border-bottom:  2px solid #999;
+	cursor:  pointer;
+	color:  #000;
+	text-decoration:  none;
+	transition:  .3s;
+}
+
+nav a:hover {
+	background:  rgba(0, 0, 155, 0.1);
+	border-color:  blue;
+}
+
+section {
+	padding:  40px 0;
+}
+
+section h2 {
+	text-align:  center;
+	border-bottom: 1px solid #ababab;
+	width:  350px;
+	margin:  0 auto;
+	padding-bottom:  30px;
+}
